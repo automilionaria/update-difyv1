@@ -62,3 +62,5 @@ docker ps
 echo -e "\e[32m--------------------------------------------------\e[0m"
 echo -e "\e[32mDify V1 atualizado com sucesso!\e[0m"
 echo -e "\e[32mSeus dados e fluxos foram mantidos, pois os volumes não foram removidos.\e[0m"
+echo -e "\e[34mMétodo MAM:                                                \e[0m"
+echo -e "\e[34mhttps://automilionaria.trade\e[0m"
