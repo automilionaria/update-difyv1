@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # ------------------------------------------------------------------------------
-# Banner de atualização do Dify
+# 0. Banner inicial com "MAM"
 # ------------------------------------------------------------------------------
-echo -e "\e[32m     ____       __        __        __  __       \e[0m"
-echo -e "\e[32m    /\\  _\\     /\\ \\      /\\ \\      /\\ \\/\\ \\      \e[0m"
-echo -e "\e[32m    \\ \\ \\/  ___ \\ \\ \\____ \\ \\ \\____ \\ \\ \\_\\ \\     \e[0m"
-echo -e "\e[32m     \\ \\ \\_/ __ \\\\ \\ '__`\\\\ \\ '__`\\ \\ \\  _  \\    \e[0m"
-echo -e "\e[32m      \\ \\ \\_/\\ \\ \\\\ \\ \\L\\ \\\\ \\ \\L\\ \\ \\ \\ \\ \\ \\   \e[0m"
-echo -e "\e[32m       \\ \\_\\\\ \\___/ \\ \\_,__/ \\ \\_,__/  \\ \\_\\ \\_\\  \e[0m"
-echo -e "\e[32m        \\/_/ \\/__/   \\/___/   \\/___/    \\/_/\\/_/  \e[0m"
-echo -e "\e[32m         Atualizando seu Dify via Docker Compose   \e[0m"
-echo
+
+echo -e "\e[34m            ____    ____   ______  ____    ____                             \e[0m"
+echo -e "\e[34m           | |\ \  / /| | |  __  || |\ \  / /| |                            \e[0m"
+echo -e "\e[34m           | | \ \/ / | | | |__| || | \ \/ / | |                            \e[0m"
+echo -e "\e[34m           |_|  \__/  |_| |_|  |_||_|  \__/  |_|                            \e[0m"
+echo -e "\e[34m                                                                            \e[0m"
+echo -e "\e[34m             Auto Instalador UPDATE DifyAI V1                               \e[0m"
+echo -e "\e[34m                                                                            \e[0m"
+echo -e "\e[34m               https://automilionaria.trade                                 \e[0m"
 
 # ------------------------------------------------------------------------------
 # Passo 1: Navegar até o diretório do Dify (ajuste se necessário)
@@ -60,5 +60,5 @@ docker ps
 # Mensagem final
 # ------------------------------------------------------------------------------
 echo -e "\e[32m--------------------------------------------------\e[0m"
-echo -e "\e[32mDify atualizado com sucesso!\e[0m"
+echo -e "\e[32mDify V1 atualizado com sucesso!\e[0m"
 echo -e "\e[32mSeus dados e fluxos foram mantidos, pois os volumes não foram removidos.\e[0m"
